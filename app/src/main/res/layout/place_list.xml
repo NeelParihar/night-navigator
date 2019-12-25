@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+
+    >
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+
+        <android.support.v7.widget.CardView
+            android:id="@+id/parent_layout"
+            android:layout_width="match_parent"
+            android:layout_height="133dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginHorizontal="5sp"
+            android:clickable="true"
+            android:foreground="?android:attr/selectableItemBackground"
+            app:cardCornerRadius="3dp"
+            app:cardElevation="3dp"
+            app:cardUseCompatPadding="true">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <ImageView
+                    android:id="@+id/imageView1"
+                    android:layout_width="105dp"
+                    android:layout_height="match_parent"
+                    android:layout_alignParentStart="true"
+                    android:layout_alignParentTop="true"
+                    android:padding="4dp" />
+                <!-- Restaurant name  -->
+                <TextView
+                    android:id="@+id/textViewTitle"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_toRightOf="@+id/imageView1"
+                    android:padding="4sp"
+                    android:text="jgjgjkjkgjkgkjgkjgkgjgfjhfhjfhfj"
+                    android:textColor="@android:color/holo_orange_light"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/textViewShortDesc"
+                    android:layout_width="fill_parent"
+                    android:layout_height="66dp"
+                    android:layout_below="@id/textViewTitle"
+                    android:layout_toRightOf="@+id/imageView1"
+                    android:padding="4sp"
+                    android:text="jgjgjkjkgjkgkjgkjgkgjgfjhfhjfhfj" />
+
+                <!-- Rating -->
+                <TextView
+                    android:id="@+id/textViewRating"
+                    android:layout_width="67dp"
+                    android:layout_height="29dp"
+                    android:layout_alignBottom="@+id/imageView1"
+                    android:layout_alignParentEnd="true"
+                    android:background="@android:color/holo_orange_light"
+                    android:paddingBottom="4sp"
+                    android:paddingLeft="15dp"
+                    android:paddingRight="15dp"
+                    android:paddingTop="4sp"
+                    android:text="4.7"
+                    android:textAlignment="center"
+                    android:textAppearance="@style/Base.TextAppearance.AppCompat.Small.Inverse"
+                    android:textColor="@color/colorPrimaryDark" />
+
+                <TextView
+                    android:id="@+id/textopen"
+                    android:layout_width="85dp"
+                    android:layout_height="30dp"
+                    android:layout_alignParentBottom="true"
+                    android:layout_toEndOf="@+id/imageView1"
+                    android:padding="4sp"
+                    android:text=" "
+                    android:textColor="@color/common_google_signin_btn_text_dark" />
+
+
+            </RelativeLayout>
+
+
+        </android.support.v7.widget.CardView>
+    </RelativeLayout>
+
+</RelativeLayout>
