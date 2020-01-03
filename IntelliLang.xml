@@ -1,0 +1,8 @@
+<application>
+  <component name="LanguageInjectionConfiguration">
+    <injection language="XML" injector-id="xml">
+      <display-name>android.support.v7.widget.CardView/@onClick</display-name>
+      <place><![CDATA[xmlAttribute().withLocalName(string().equalTo("onClick")).withNamespace(string().equalTo("http://schemas.android.com/apk/res/android")).withParent(xmlTag().withLocalName(string().matches("android.support.v7.widget.CardView")))]]></place>
+    </injection>
+  </component>
+</application>
