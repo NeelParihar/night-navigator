@@ -10,3 +10,14 @@ more responsive and secure.
 To give an Example:
 * Searching for nearest Hospitals available at night and for the chemist at the same time.
 * Nearest Restaurants or inn available.
+
+## Screenshots:
+
+### Login/Register
+<img src="log.png" height="400" width="500" >
+
+### Homescreen
+<img src="home.png" height="400" width="250" > 
+
+### Detail List
+<img src="detail.png" height="400" width="250" >
