@@ -19,5 +19,17 @@ To give an Example:
 ### Homescreen
 <img src="home.png" height="400" width="250" > 
 
-### Detail List
+### Restaurant Page
 <img src="detail.png" height="400" width="250" >
+
+### Lodge Page
+<img src="lodge.png" height="400" width="250" >
+
+### Chemist Page
+<img src="chemist.png" height="400" width="250" >
+
+### Cabs Page
+<img src="cabs.png" height="400" width="250" >
+
+### Detail place page
+<img src="detailplacelist.png" height="400" width="250" >
